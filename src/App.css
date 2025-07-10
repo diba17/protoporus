@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    /* border: solid 2px red */
+}
+
+body {
+  font-family: 'Pacifico', cursive;
+  background-color: rgba(255, 255, 255, 0.858);
+  color: #000000;
+  line-height: 1.5;
+}
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  
+
+.navbar{
+    font-family: 'Pacifico', cursive;
+    width: 97.5%;
+    height: 12vh;
+    background-color: #000000;
+    justify-content: space-between;
+    border-bottom: groove 4px #1ab1a2;
+    /* position: fixed; */
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    
+}
+.LennyFace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    gap: 0;
+    
+}
+    
+   
+
+
+.LennyFace img{
+    width: 30%;
+    height: 100%;
+}
+
+.LennyFace span{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 2rem;
+}
+
+.navLinks{
+
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* border: solid 1px red; */
+}
+.navbar a{
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: #04f8e3;
+    transform: scale(1.1); /* Slight zoom */
+    transition: all 0.3s ease;
+    text-decoration: underline;
+}
+
+.navLinks a:nth-child(4) {
+  color: #070707;
+  font-weight: bold;
+  border-radius: 6px;
+  outline: none;
+  background-color: #fefdfb;
+  padding: 10px;
+}
+
+.navLinks a:nth-child(4):hover{
+    color:#04f8e3 ;
+    background-color: #212121;
+    transform: scale(1.05); /* Slight zoom */
+    transition: all 0.3s ease;
+}
+
+.footer{
+    /* border: solid 2px red; */
+    background-color: #000000e6;
+    height: 12vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-top: ridge 4px #1ab1a2;
+}
+
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 30vw;
+}
+.footer-icons a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.footer-icons a:hover{
+   transform: scale(1.2);
+   color: #04f8e3;
+}
+
+.social-iconX{
+   color: #00d9ff;
+   font-size: 1.5em;
+}
+
+.social-iconTg{
+    background-color: rgb(246, 249, 249);
+    border-radius: 50px;
+    color: #00b8d8;
+    font-size: 1.5em;
+}
+
+.social-iconReddit{
+    font-size: 1.5em;
+    background-color: rgb(245, 243, 243);
+    color: red;
+    border-radius: 50px;
+}
+
+.social-iconChart{
+    font-size: 1.5em;
+    background-color: #f9f9fa;
+    color: #090909;
+    border-radius: 3px;
+}
+
+
