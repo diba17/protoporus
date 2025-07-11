@@ -19,6 +19,13 @@
   gap: 10px;
   
 }
+
+.gif{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: ; */
+}
 .copy{
   display: flex;
   align-items: center;

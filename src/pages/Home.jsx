@@ -119,7 +119,10 @@ const lennyFaces = [
             <h1>Welcome To The Official Website For $Lenny On Solana</h1>
             <CA value='8Vb11fvr9f7k74hrhNJEqjGq1hzgBH7FnuwGFbPppump' />
             </div>
+                <div className={styles.gif}>
 
+                <img src="public/When a regular lenny face isn't enough - OC - Imgur.gif" alt=""  />
+                </div>
             <main>
             <div className={styles.copy}>
                 <h2>
