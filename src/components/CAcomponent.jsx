@@ -16,7 +16,7 @@ export default function CA({ label = "CA:", value }){
 
     return(
         <p>
-            {label}{""}
+            <strong>{label}</strong>{""}
             <span
             onClick={handlecopy}
             onMouseEnter={()=> setHovered(true)}

@@ -116,7 +116,7 @@ const lennyFaces = [
     return (
         <>
             <div className={styles.Welcome}>
-            <h1>Welcome to the official Website for $Lenny on Solana</h1>
+            <h1>Welcome To The Official Website For $Lenny On Solana</h1>
             <CA value='8Vb11fvr9f7k74hrhNJEqjGq1hzgBH7FnuwGFbPppump' />
             </div>
 
