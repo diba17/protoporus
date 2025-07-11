@@ -53,7 +53,7 @@ export default function About(){
                    <p>
                     $LENNY is a memecoin on the solana blockchain, based off the legendary lenny face meme/emoticon 
                     "( ͡° ͜ʖ ͡°)".<br/></p>
-                     <img className="lenny-gifs" src="public/og-lenny-face.png" alt="Lenny Face Meme" />
+                     <img className="lenny-gifs" src="/og-lenny-face.png" alt="Lenny Face Meme" />
                     <br/>
                     <p>
                     On the 13th of June 2024, It was launched by an anonymous wallet address on pump.fun, making it the first lenny based meme on 

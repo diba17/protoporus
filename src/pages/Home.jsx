@@ -121,7 +121,7 @@ const lennyFaces = [
             </div>
                 <div className={styles.gif}>
 
-                <img src="public/When a regular lenny face isn't enough - OC - Imgur.gif" alt=""  />
+                <img src="/when-lenny-not-enough.gif" alt=""  />
                 </div>
             <main>
             <div className={styles.copy}>
